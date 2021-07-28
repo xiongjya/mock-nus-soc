@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: scroll;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.logo{
+  width: 340px;
+  cursor: pointer;
+}
+.navbar nav{
+  flex: 1;
+  padding-left: 542px;
+  padding-top: 30px;
+}
+.navbar nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 13px;
+}
+.navbar nav ul li a{
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Helvetica", sans-serif;
+  color: #999;
+  text-decoration: none;
+}
+.navbar nav ul li a:hover{
+  color: #ef7c00;
+}
+
+.infobar{
+  height: 50px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #dddddd;
+  border-right: transparent;
+  border-left: transparent;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.infobar .icons{
+  margin: 17px 0px 17px 80px;
+  display: flex;
+  flex-direction: row;
+}
+.infobar .icons .more{
+  margin-left: 40px;
+}
+.infobar nav{
+  flex: 1;
+  margin: 17px 10px;
+}
+.infobar nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 13px;
+}
+.infobar nav ul li a{
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Helvetica", sans-serif;
+  color: #999;
+  text-decoration: none;
+}
+.infobar nav ul li a:hover{
+  color: #ef7c00;
+}
+
+.COVID19-b{
+  display: none;
+}
+.COVID19:hover + .COVID19-b{
+  display: block;
+}
+
+.undergraduate-p{
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.more-p{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.more-p img{
+  width: 25%;
+  border-style: solid;
+  border-width: 0px 2px 0px;
+  border-color: #fff;
+}
+
+.news{
+  padding: 0px 75px;
+}
+.news-heading{
+  height: 115px;
+  padding: 85px 0px 0px;
+  text-align: center;
+}
+.news .news-heading a{
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+  color: #003d7c;
+  text-decoration: none;
+}
+.news ul li{
+  height: 450px;
+  margin: 0px 60px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.news ul li .news-info{
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.news ul li .heading{
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  font-size: 23px;
+  color: #003d7c;
+  margin: 15px 30px 0px 0px;
+  cursor: pointer;
+}
+.news ul li .heading:hover{
+  color: #000000;
+}
+
+.news ul li .calendar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.news ul li .calendar i{
+  margin: 10px 0px 0px;
+}
+.news ul li .calendar h1{
+  margin: 2px 0px 0px 5px;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #bebebe;
+}
+
+.news ul li .more{
+  display: flex;
+  flex-direction: row;
+}
+.news ul li .more img{
+  height: 35px;
+  margin: 5px 0px 0px 5px;
+}
+.news ul li .more p{
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 20px;
+  word-spacing: 3px;
+  margin: 0px 30px 0px 10px;
+}
+
+.news ul li .tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px 30px 0px 35px;
+}
+.news ul li .tags i{
+  margin: 9px 0px 0px;
+}
+.news ul li .tags .tags-l{
+  display: flex;
+  flex-wrap: flex;
+}
+.news ul li .tags .tags-l a{
+  font-size: 13px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Helvetica", sans-serif;
+  color: #ef7c00;
+  text-decoration: none;
+}
+.news ul li .tags .tags-l a:hover{
+  color: #2f4f4f;
+}
+.news ul li .tags .tags-l p{
+  font-size: 13px,
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+}
+
+.news li img:hover{
+  filter: brightness(1.05);
+}
+
+.news .more-news{
+  height: 145px;
+  padding: 55px 0px 0px 580px;
+}
+.news .more-news button{
+  color: #fff;
+  border: none;
+  background-color: #003d7c;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.news .more-news button:hover{
+  background-color: #213f9c;
+}
+.news .more-news h1{
+  font-size: 13px;
+  font-weight: lighter;
+  margin-left: 5px;
+}
