@@ -126,6 +126,9 @@
   color: #003d7c;
   text-decoration: none;
 }
+.news .news-heading a:hover{
+  color: #000;
+}
 .news ul li{
   height: 450px;
   margin: 0px 60px 40px 0px;
@@ -217,11 +220,11 @@
   filter: brightness(1.05);
 }
 
-.news .more-news{
+.more-button{
   height: 145px;
   padding: 55px 0px 0px 580px;
 }
-.news .more-news button{
+.more-button button{
   color: #fff;
   border: none;
   background-color: #003d7c;
@@ -233,11 +236,50 @@
   padding: 10px;
   cursor: pointer;
 }
-.news .more-news button:hover{
+.more-button button:hover{
   background-color: #213f9c;
 }
-.news .more-news h1{
+.more-button h1{
   font-size: 13px;
   font-weight: lighter;
   margin-left: 5px;
+}
+
+.videos{
+  padding: 0px 45px;
+}
+.video-heading{
+  height: 115px;
+  text-align: center;
+}
+.videos .video-heading a{
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+  color: #003d7c;
+  text-decoration: none;
+}
+.videos .video-heading a:hover{
+  color: #000;
+}
+.videos .video-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.videos .video-items .video-des h1{
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+  color: #003d7c;
+  margin: 10px 0px;
+}
+.videos .video-items .video-des p{
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+  line-height: 20px;
+  word-spacing: 1px;
+  margin: 0px 20px 0px 0px;
 }
