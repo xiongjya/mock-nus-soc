@@ -35,8 +35,8 @@
 }
 .navbar nav ul li a{
   font-size: 14px;
-  font-weight: 100;
-  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #999;
   text-decoration: none;
 }
@@ -75,8 +75,8 @@
 }
 .infobar nav ul li a{
   font-size: 14px;
-  font-weight: 100;
-  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #999;
   text-decoration: none;
 }
@@ -120,9 +120,9 @@
   text-align: center;
 }
 .news .news-heading a{
-  font-size: 35px;
+  font-size: 36px;
   font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #003d7c;
   text-decoration: none;
 }
@@ -142,9 +142,10 @@
   line-height: 30px;
 }
 .news ul li .heading{
-  font-family: "Helvetica", sans-serif;
-  font-weight: lighter;
-  font-size: 23px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 1.4;
   color: #003d7c;
   margin: 15px 30px 0px 0px;
   cursor: pointer;
@@ -163,10 +164,10 @@
 }
 .calendar h1{
   margin: 2px 0px 0px 5px;
-  font-family: "Helvetica", sans-serif;
-  font-weight: lighter;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
   font-size: 13px;
-  color: #bebebe;
+  color: #999;
 }
 
 .more{
@@ -178,11 +179,11 @@
   margin: 5px 0px 0px 5px;
 }
 .more p{
-  font-family: "Helvetica", sans-serif;
-  font-weight: lighter;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
-  word-spacing: 3px;
+  color: #333;
+  line-height: 1.428571;
   margin: 0px 30px 0px 10px;
 }
 
@@ -200,12 +201,14 @@
   flex-wrap: flex;
 }
 .tags .tags-l a{
-  font-size: 13px;
-  font-weight: lighter;
+  font-size: 14px;
   font-style: italic;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.428571;
   color: #ef7c00;
+  opacity: .7;
   text-decoration: none;
+  margin: 5px 0px 0px 0px;
 }
 .tags .tags-l a:hover{
   color: #2f4f4f;
@@ -213,7 +216,7 @@
 .tags .tags-l p{
   font-size: 13px,
   font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .news li img:hover{
@@ -222,7 +225,7 @@
 
 .more-button{
   height: 145px;
-  padding: 55px 0px 0px 580px;
+  padding: 60px 0px 0px 580px;
 }
 .more-button button{
   color: #fff;
@@ -253,9 +256,9 @@
   text-align: center;
 }
 .videos .video-heading a{
-  font-size: 35px;
+  font-size: 36px;
   font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #003d7c;
   text-decoration: none;
 }
@@ -269,36 +272,38 @@
 }
 
 .videos .video-items .video-des h1{
-  font-size: 27px;
-  font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.1;
   color: #003d7c;
   margin: 10px 0px;
 }
 .videos .video-items .video-des p{
   font-size: 14px;
-  font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
-  line-height: 20px;
+  font-weight: 400;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.428571;
   word-spacing: 1px;
+  color: #333;
   margin: 0px 20px 0px 0px;
 }
 
 .videos .more-button{
-  margin: 0px 0px 0px 30px;
+  margin: 10px 0px 0px 30px;
 }
 
 .features{
   padding: 0px 45px;
 }
 .features-heading{
-  height: 105px;
+  height: 75px;
   text-align: center;
 }
 .features .features-heading a{
-  font-size: 35px;
+  font-size: 36px;
   font-weight: lighter;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #003d7c;
   text-decoration: none;
 }
@@ -307,7 +312,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 30px 0px;
+  margin: 30px 0px 60px 0px;
 }
 .features .features-0{
   margin: 0px 0px 0px 7px;
@@ -320,9 +325,9 @@
   filter: brightness(1.05);
 }
 .features .features-r .features-i .heading{
-  font-family: "Helvetica", sans-serif;
-  font-weight: lighter;
-  font-size: 23px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  font-size: 24px;
   color: #003d7c;
   margin: 30px 30px 0px 0px;
   cursor: pointer;
@@ -346,10 +351,74 @@
   font-size: 14px;
   word-spacing: normal;
 }
+.features .features-r .features-i .tags i{
+  margin: 15px 0px 0px 0px;
+}
 .features .features-r .features-i .tags-l{
   margin: 7px 0px 0px;
 }
 
 .features .more-button{
   margin: 0px 0px 0px 25px;
+}
+
+.upcoming{
+  margin: 0px 75px 0px;
+}
+.upcoming-heading{
+  height: 105px;
+  text-align: center;
+  margin: 0px 0px 25px 0px;
+}
+.upcoming .upcoming-heading a{
+  font-size: 36px;
+  font-weight: lighter;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #003d7c;
+  text-decoration: none;
+}
+
+.upcoming table{
+  width: 100%;
+  margin: 0px 0px 35px 0px;
+  border: none;
+  border-collapse: collapse;
+}
+.upcoming table .t-blue{
+  height: 30px;
+  width: 15px;
+  background-color: #003d7c;
+}
+.upcoming table .t-grey{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 15.808px;
+  padding: 0px 5px;
+  background-color: #eeecec;
+}
+.upcoming table .t-time{
+  width: 200px;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+  padding: 5px 0px;
+}
+.upcoming table .t-event{
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #003d7c;
+  cursor: pointer;
+  padding: 5px 0px;
+}
+.upcoming table .t-details{
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #555;
+  padding: 0px 0px 5px 0px;
+}
+
+.appendix{
+  height: 790px;
+  background-color: #003d7c;
 }
