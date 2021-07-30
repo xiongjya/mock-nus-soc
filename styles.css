@@ -12,6 +12,12 @@
   position: relative;
   overflow: scroll;
 }
+
+.horizontal{
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar{
   width: 100%;
   display: flex;
@@ -52,14 +58,10 @@
   border-right: transparent;
   border-left: transparent;
   background-color: #f7f7f7;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 .infobar .icons{
   margin: 17px 0px 17px 80px;
-  display: flex;
-  flex-direction: row;
 }
 .infobar .icons .more{
   margin-left: 40px;
@@ -99,8 +101,6 @@
 }
 
 .more-p{
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   cursor: pointer;
 }
@@ -155,8 +155,6 @@
 }
 
 .calendar{
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
 }
 .calendar i{
@@ -188,8 +186,6 @@
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   margin: 0px 30px 0px 35px;
 }
@@ -266,8 +262,6 @@
   color: #000;
 }
 .videos .video-items {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -309,8 +303,6 @@
 }
 
 .features .features-r{
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   margin: 30px 0px 60px 0px;
 }
@@ -483,8 +475,6 @@ table td .table-vl{
 }
 
 .logo-d{
-  display: flex;
-  flex-direction: row;
   margin: 5px;
 }
 .logo-d i{
@@ -517,12 +507,41 @@ table td .table-vl{
   color: #fff;
 }
 .logo-c{
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   margin: 50px 0px;
   width: 250px;
 }
 .logo-c i{
   cursor: pointer;
+}
+
+.final{
+  height: 120px;
+  background-color: #003d7c;
+  text-align: center;
+}
+.final .horizontal{
+  padding: 5px 0px 0px 580px;
+}
+.final h1{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #999;
+  margin: 0px 0px 0px 5px;
+}
+.final .fa-copyright{
+  margin: 2px 0px 0px 5px;
+}
+.final .fa-circle{
+  margin: 5px 0px 0px 5px;
+}
+.final .legal{
+  margin: 0px 0px 0px 35px;
+}
+.final .white{
+  cursor: pointer;
+}
+.final .white:hover{
+  color: #fff;
 }
