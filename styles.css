@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container{
   height: 100vh;
   width: 100%;
@@ -11,6 +12,24 @@
   box-sizing: border-box;
   position: relative;
   overflow: scroll;
+}
+
+.topBtn{
+  position: fixed;
+  bottom: 45px;
+  right: 20px;
+
+  z-index: 100;
+
+  opacity: 0;
+
+  height: 45px;
+  width: 45px;
+  border: none;
+  background-color: #003d7c;
+}
+.showBtn{
+  opacity: 1;
 }
 
 .horizontal{
@@ -83,7 +102,7 @@
   text-decoration: none;
 }
 .infobar nav ul li a:hover{
-  color: #ef7c00;
+  color: #000;
 }
 
 .COVID19-b{
